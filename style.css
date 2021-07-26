@@ -1,0 +1,359 @@
+body
+{
+	background: url(image/ist.jpeg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+}
+/*Nesneler*/
+.tarea{
+	background-color: rgba(0,0,0,0.3);
+	outline: none;
+	border-radius: 5px;
+	border-right: 2px #eee solid;
+	border-bottom: 2px #eee solid;
+	border-top: 2px #999 solid;
+	border-left: 2px #999 solid;
+	min-width: 300px;
+	height: 100px;
+}
+.anor{
+	text-decoration: none;
+	margin:0;
+	padding: 0;
+	color:#333;
+}
+.sub{
+	width: 90px;
+	height: 25px;
+	border-radius: 5px;
+	border:solid 1px #333;
+	color:#000;
+	outline: none;
+	text-decoration: none;
+
+	padding: 5px 20px; 
+
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	background-color: rgba(0,0,0,0.3);
+	font-size: 9pt;
+	text-align: center;
+	line-height: 25px;
+}
+.sub:hover
+{
+	
+	background-color: rgba(220,220,220,0.5);
+	
+}
+/*konu*/
+.konu{
+	margin-left: auto;
+	margin-right: auto;
+	
+	width: 60%;
+	height: 100%;
+	border-radius: 10px;
+	border:solid 2px #333;
+	padding:1%;
+	min-width: 600px;
+	background-color: rgba(220,220,220,0.5);	
+}
+.konu table{
+	background-color: rgba(230,230,230,0.6);
+	width: 90%;	
+	height: 90%;
+	min-width: 500px;	
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	border:solid 2px #333;
+}
+.konu table caption{
+	font-size: 34px;
+}
+.konu table tr td{
+	padding: 4% 1%;
+	font-size: 150%;
+	color:#333;
+}
+.konu .yazar{
+	text-align: right;
+	font-size: 12pt;
+	margin: 0;
+	padding: 0;
+	padding-right: 2%;
+}
+
+/*Uyeler*/
+.uu{
+	-webkit-transition-duration:0.4s;
+	transition-duration:0.4s;
+
+	width: 50%;
+	border: solid 2px #333;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(220,220,220,0.7);
+	text-align: center;
+	border-radius: 5px;
+	padding:1px;
+	margin-bottom: 5px;
+}
+.uu:hover{
+
+	background-color: rgba(120,120,120,0.9);
+	color:#ddd;
+}
+.uu span{
+	float: left;
+	color:#a00;
+}
+.uu b{
+	color:#000;
+}
+.uu ul{
+	list-style: none;
+	margin:1%;
+}
+.uu ul li{
+	position: relative;
+	display: inline;
+	margin-right: 5%;                                   
+}
+/*Ara*/
+.ara{
+	padding: 1%;
+	width: 70%;
+	min-width: 450px;
+	margin-right: auto;
+	margin-left: auto;
+	border: solid 2px #333;
+	border-radius: 10px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.ara span
+{
+	font-size: 18px;
+	padding-right: 20px;
+}
+.ara input[type="text"]
+{
+	outline: none;
+	border-radius: 5px;
+	height: 18px;
+	background-color: rgba(200,200,200,0.4);
+	padding-left: 5px;
+}
+.ara input[type="submit"]
+{
+	outline: none;
+	border-radius: 5px;
+	height: 25px;
+	background-color: rgba(250,250,250,0.7);
+}
+/*Giriş*/
+#container
+{
+	width:280px;
+    height: 280px;
+
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: -150px;
+    padding:20px;
+    border-radius: 30px;
+    border:solid 3px #333;
+    text-align: center;
+    z-index: 1;      
+}
+#container::before
+{
+	content: "";
+   position: absolute;
+   top: 0; 
+   left: 0;
+   width: 100%; 
+   height: 100%;  
+   opacity: 0.4; 
+   z-index: -1;
+   background-color: #999; 
+   border-radius: 30px;
+}
+#container span
+{
+	font-size: 20px;
+	color: #222;
+	opacity: 1;
+	font-weight: bold;
+}
+#container .ss
+{
+	width: 200px;
+	height: 25px;
+	border-radius: 8px;
+	border-right: 2px solid #eee;
+	border-bottom: 2px solid #eee;
+	border-top: 2px solid #444;
+	border-left: 2px solid #444;
+	padding:0px 5px;
+	z-index: 1;
+	outline: none;
+	background-color: rgba(250,250,250,0.6);
+	
+}
+
+#container input[type="submit"]
+{
+	width: 160px;
+	height: 30px;
+	border-radius: 8px;
+	border: solid #333 1px;
+	background-color: rgba(250,250,250,0.6);
+	font-weight: bold;
+	outline: none;
+}
+#container input[type="submit"]:hover
+{	
+	border: solid #eee 1px;
+	color:#eee;
+	background-color: rgba(50,50,50,0.8);
+}
+/*Kayit*/
+.kd{
+	position: absolute;
+	left: 0;
+	right: 0;
+	border:solid #333 2px;
+	border-radius: 5px;
+	margin-left: 22%;
+	margin-right: 22%;
+	padding: 40px;
+	width: auto;
+	height: auto;
+	z-index: 1;
+	background-color: rgba(100,100,100,0.5);
+}
+.kd table{
+	margin-left: auto;
+	margin-right: auto; 
+	border-radius: 10px;
+	border:solid #333 2px;
+	background-color: rgba(200,200,200,0.7);
+}
+.kd table caption{
+	font-weight: bold;
+	font-size: 24px;
+	color:#222;
+	margin-bottom: 5%;
+}
+.kd table tr td{
+	padding: 10px;
+	color:#333;
+}
+.kd table tr td input[type="text"], input[type="password"]
+{
+	width: 160px;
+	height: 18px;
+	border-radius: 8px;	
+	padding:0px 5px;
+	z-index: 1;
+	outline: none;
+	background-color: rgba(0,0,0,0.3);
+	border-right: 2px solid #eee;
+	border-bottom: 2px solid #eee;
+	border-top: 2px solid #444;
+	border-left: 2px solid #444;
+}
+.kd table tr td input[type="submit"]
+{
+	width: 90px;
+	height: 20px;
+	border-radius: 8px;
+	border: solid #333 1px;
+	background-color: rgba(0,0,0,0.3);	
+	outline: none;
+}
+.kd table tr td input[type="submit"]:hover
+{	
+	border: solid #333 1px;
+	color:#333;
+	background-color: rgba(200,200,200,0.3);
+}
+/*Profile*/
+.psag{
+	float: left;
+	width: 40%;
+	height: 100%;
+	border-radius: 10px;
+	border:solid 2px #333;
+	padding:1%;
+	background-color: rgba(220,220,220,0.5);
+	min-width: 300px;
+}
+.psag table{
+	background-color: rgba(230,230,230,0.6);
+	width: 90%;
+	height: 90%;
+	min-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	border:solid 2px #333;
+}
+.psag table caption{
+	font-size: 34px;
+}
+.psag table tr td{
+	padding: 4% 1%;
+	font-size: 150%;
+	color:#333;
+}
+/*Header*/
+.header{
+	margin-top:10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	width: auto;
+	height: auto;
+	max-height: 66px;
+	border-radius: 5px;
+	border:solid 2px #333;	
+	min-width: 700px;
+}
+.header table{
+	text-decoration: none;	
+	margin-left: auto;
+	margin-right: auto;	
+	min-width: 500px;
+}
+.header table tr{
+	display: inline-block;
+}
+.header table tr td{	
+	padding: 20px;	
+	border-right: solid 2px #333;
+	border-left: solid 2px #333;
+}
+.header table tr td:hover{
+	color:#fff;	
+}
+.header table tr td a
+{
+	text-decoration: none;
+	padding: 16px;
+	color:#000;	
+}
+.header table tr td a:hover
+{
+	color:#fff;	
+}
+
